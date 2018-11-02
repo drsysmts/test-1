@@ -52,19 +52,6 @@ public:
 
 int main() {
 
-/*    int t = 23;
-    int*p;
-    p=&t;
-
-
-
-
-	cout << p << " p "<<endl;
-	cout << *p << " *p "<<endl;
-	cout << t << " t "<<endl;
-	cout << &t <<"  &t" <<endl;
-	cout << &p << " &p "<<endl;*/
-
 
 	Cuve cuve1(22,56);
 
@@ -87,7 +74,10 @@ int main() {
     Cuve cve1(22,56);
 
 
+    if (cuve1.x>1) {
 
+    		cout << "fun" << endl;
+    	}
 
 	cout << " VOLUME : "<< cuve1.x<< " price : "<< cuve1.y <<endl; // prints !!!Hello World!!!
 	cout << cuve2.x<< " "<< cuve2.y <<endl;
