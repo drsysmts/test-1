@@ -53,7 +53,7 @@ public:
 int main() {
 
 
-	Cuve cuve1(22,56);
+	Cuve cuve1(22,56);// change code
 
 	cuve1.set(1000,9000);
 	cuve1.affiche();
