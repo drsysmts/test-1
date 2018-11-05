@@ -82,6 +82,12 @@ int main() {
 	cout << " VOLUME : "<< cuve1.x<< " price : "<< cuve1.y <<endl; // prints !!!Hello World!!!
 	cout << cuve2.x<< " "<< cuve2.y <<endl;
 	cout << M <<endl;
+	
+	// test fishe
+	int a =122;
+	if (a==122){
+		cout <<"a equal 122"<<endl;
+	}
 
 	return 0;
 }
